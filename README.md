@@ -1,2 +1,3 @@
 
-[JS школа PDFFiller](./pdffiller/index.html)
+[JS школа PDFFiller](https://asterai.github.io/pdffiller/index.html)
+ / [Код проекта](./pdffiller/index.html)
