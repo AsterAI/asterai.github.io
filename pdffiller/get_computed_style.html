@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        .m50_percent {
+            width: 50%;
+            float: left;
+        }
+    </style>
+
+</head>
+
+<body>
+<h2>Школа Pdffiller. getComputedStyles</h2>
+<div class="m50_percent" id="left">left</div>
+<div class="m50_percent" id="right">right</div>
+</body>
+
+<script>
+    var left = document.getElementById('left');
+    console.log('-----------');
+    console.log(left.style.width); // Ничего не выведит
+    console.log('-----------');
+    console.log(window.getComputedStyle(left).width)
+</script>
+
+</html>
